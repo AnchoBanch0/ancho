@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Merab;
+    src: url(../DM-MERAB-KOSTAVA.TTF);
+}
+
+body {
+    background-color: #000030;
+    font-family: Merab;
+}

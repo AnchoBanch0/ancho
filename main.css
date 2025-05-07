@@ -1,0 +1,22 @@
+body > div:first-of-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+body > div:first-of-type > h1 {
+    width: 400px;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: -1px 1px 24px 11px #ffffff85;
+    -webkit-box-shadow: -1px 1px 24px 11px #ffffff85;
+    -moz-box-shadow: -1px 1px 24px 11px #ffffff85;
+}
+
+body > div:first-of-type > h1 > a {
+    text-decoration: none;
+    font-size: 80px;
+    color: #fff;
+}

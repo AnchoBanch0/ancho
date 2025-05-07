@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body > div:first-of-type {
+    display: flex;
+    text-align: center;
+    padding-top: 150px;    
+}
+
+body > div > div > video {
+    width: 60%;
+    display: inline-block;
+    box-shadow: -1px 1px 20px 5px #ffffff85;
+    -webkit-box-shadow: -1px 1px 20px 5px #ffffff85;
+    -moz-box-shadow: -1px 1px 20px 5px #ffffff85;
+}
+
+body > div:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
+}
+
+body > div:nth-of-type(2) > a {
+    background-color: none;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    box-shadow: -1px 1px 20px 5px #ffffff85;
+    -webkit-box-shadow: -1px 1px 20px 5px #ffffff85;
+    -moz-box-shadow: -1px 1px 20px 5px #ffffff85;
+    text-align: center;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
